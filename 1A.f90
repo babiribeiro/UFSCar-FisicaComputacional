@@ -3,10 +3,10 @@ implicit none
 real*8 f,a,b,h,sum,x,q,k
 integer i,j,l,N,V
 external f
-print*, "de os intervalos de integra‡Æo"
+print*, "de os intervalos de integraâ€¡Ã†o"
 read*, a,b
-print*, "escolha o metodo de integra‡Æo"
-print*," 1 - metodo dos trap‚zios"
+print*, "escolha o metodo de integraâ€¡Ã†o"
+print*," 1 - metodo dos trapâ€šzios"
 print*," 1 - metodo de simpsons"
 read*, q
 
@@ -16,7 +16,7 @@ if ( q==1)then
 print*, "de a quantidade de intervalos"
 read*, N
 
-!metodo dos trap‚zios
+!metodo dos trapâ€šzios
 h = (b-a)/N
 sum = (f(a)+f(b))*h/2
 do i=1, N-1
